@@ -1,0 +1,209 @@
+header{
+    background-color: white;
+}
+header>nav>img{
+    height: 64px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    padding: 25px;
+}
+header>nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+header>nav>ul>li:hover{
+    background-color: grey;
+}
+.first{
+    text-align: center;
+    padding: 90px;
+    background: url(../images/nanda.jpeg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 15px;
+    font-size: larger;
+    color: red;
+}
+.first>h1{
+    color: magenta;
+}
+.first>p,.first>button{
+    margin-top: 30px;
+}
+.first>button:hover{
+    scale: 1.5;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.second{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    padding: 20px;
+    height: 550px;
+    text-transform: capitalize;
+}
+/* .third{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin-left: 25%;
+    margin-bottom: 40%;
+    position: absolute;
+} */
+.third{
+    position: relative;
+}
+.fourth{
+    position: absolute;
+    bottom: -80px;
+    background-color: aliceblue;
+    margin-left: 20%;
+    padding: 50px;
+    margin-right: 20%;
+    margin-top: 20%;
+    font-size: large;
+}
+button{
+    background-color: red;
+    margin: 20px;
+}
+.fifth>p,h1{
+text-align: center;
+}
+.fifth{
+    /* margin: 70px;
+    padding: 50px; */
+    display: flex;
+    flex-flow: row wrap;
+    gap: 45px;
+    padding: 100px;
+   
+    background-color: blue;
+    
+
+}
+.fifth>.sixth{
+    /* background-color: lightblue;
+    height: 50%;
+    width: 20%;
+    text-align: center; */
+    background-color: aqua;
+    width: 25%;
+    padding: 30px;
+}
+.seven{
+    text-align: center;
+    background-color: lightgray;
+    color: red;
+}
+.eight{
+    text-align: center;
+    font-size: xx-large;
+}
+.nine{
+    text-align: center;
+    margin: 20px;
+}
+.naresh{
+    text-align: right;
+    padding: 90px;
+    background: url(../image/nanda.jpeg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 15px;
+    font-size: larger;
+    color: red;
+}
+.naresh>button:hover{
+    background-color: red;
+}
+.nanda{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F6F6;
+    height: 300px;
+    gap: 20px;
+}
+.nanda>.kishore{
+    border: 1px solid #FFFFFF;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+.nanda>.kishore:hover{
+    background-color: darkmagenta;
+}
+
+.kishore>a{
+    background-color: pink;
+}
+.kishore>a:hover{
+    background-color: skyblue;
+}
+.ravi{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+}
+.ravi>.prasadh>h2{
+    text-align: center;
+    width: 300px;
+    padding: 20px;  
+}
+.feedback{
+    background: linear-gradient(rgba(255, 165, 0, 0.4), rgba(245, 239, 239,0.4), rgba(0, 128, 0, 0.4)), url(../images/sir.webp) no-repeat center;
+    background-size: cover;
+    padding: 50px;
+    background-attachment: fixed;
+}
+.feedback>form{
+    padding: 0px 50px 50px;
+}
+.feedback>form>label{
+    font-weight: bold;
+    color: #ffff;
+}
+.feedback>form>label>span{
+    color: red;
+}
+.feedback>form>input, .feedback>form>textarea{
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.feedback>form>input:focus-visible, .feedback>form>textarea:focus-visible{
+    outline: 1px solid green;
+    border: none;
+}
+.feedback>form>button{
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #fff;
+}
+.feedback>form>[type="submit"]{
+    background: skyblue;
+}
+.feedback>form>[type="button"]{
+    background: lightsalmon;
+}
